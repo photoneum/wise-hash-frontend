@@ -1,0 +1,16 @@
+.request-container:hover .accept {
+    background-color: #94E4AF;
+}
+
+.request-container:hover .decline {
+    background-color: #FF0000;
+}
+
+
+.request-container:hover .view{
+    background-color: #000;
+}
+
+.request-container:hover .detail {
+    color: #000;
+}

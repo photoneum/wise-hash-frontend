@@ -1,0 +1,217 @@
+/* Set base styles for Tailwind */
+@tailwind base;
+
+/* Include Tailwind components */
+@tailwind components;
+
+/* Include Tailwind utilities */
+@tailwind utilities;
+
+/* Hide horizontal scrollbar on body */
+body {
+  overflow-x: scroll;
+  background-color: #f7f7f7;
+}
+
+/* Disable resizing of textareas */
+textarea {
+  resize: none;
+}
+
+/* Set font family for Work Sans */
+.work-sans {
+  font-family: "Work Sans", sans-serif;
+}
+
+/* Styles for navbar */
+.navbar {
+  background-color: #f8f8f8;
+}
+
+/* Styles for navbar with owner */
+.navbar-owner {
+  background-color: #efeeee;
+}
+
+/* Styles for avatar background */
+.avatar-bg {
+  background-color: #d9d9d9;
+}
+
+/* Styles for page */
+.page {
+  background-color: #f8f8f8;
+  height: 5.5vh;
+}
+
+/* Styles for placer button */
+.placer-button {
+  color: #defa0f;
+}
+
+/* Styles for total button */
+.total-button {
+  color: #defa0f;
+  width: 100%;
+}
+
+/* Styles for checkout placer button */
+.checkout-placer-button {
+  color: #b8b7b7;
+  background-color: #f7f7f7;
+}
+
+/* Styles for product container */
+.product-container {
+  height: 58vh;
+}
+
+/* Hide scrollbar */
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+/* Styles for filter select */
+.filterSelect {
+  border-right: 20px solid transparent;
+  background-color: #f8f8f8;
+}
+
+/* Styles for main car description */
+.main-car-desc {
+  width: 100vw;
+  border-top-left-radius: 5%;
+  border-bottom-left-radius: 5%;
+}
+
+/* Styles for non-main car description */
+.notmain-car-desc {
+  width: 22.4vw;
+  height: 24vh;
+}
+
+/* Styles for non-main car description top right */
+.notmain-topright {
+  border-top-right-radius: 5%;
+}
+
+/* Styles for non-main car description bottom right */
+.notmain-bottomright {
+  border-bottom-right-radius: 5%;
+}
+
+/* Styles for description section */
+.description-section {
+  height: 72vh;
+  overflow-y: scroll;
+}
+
+/* Styles for message */
+.message {
+  width: 500px;
+}
+
+/* Styles for checkout section */
+.checkout-section {
+  height: 75vh;
+  overflow-y: scroll;
+}
+
+/* Styles for horizontal category container */
+.h-category-container {
+  width: 93.5%;
+}
+
+/* Styles for horizontal category on hover */
+.h-category:hover {
+  background-color: #f4f4f6;
+  color: #000000;
+}
+
+/* Styles for settings */
+/* .settings {
+  height: 75.5vh;
+  overflow-y: scroll;
+} */
+
+/* Styles for flex center */
+.flex-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Styles for ellipse */
+.ellipse {
+  display: none;
+}
+
+/* Show ellipse on larger viewports */
+@media (min-width: 1350px) {
+  .ellipse {
+    /* right: 250px; */
+    /* top: 30px; */
+    /* display: block; */
+  }
+}
+
+/* Styles for active side */
+.active-side {
+  background-color: #defa0f;
+  color: #000000;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  margin-left: 1.7rem;
+}
+
+/* Styles for active side with owner */
+.active-side-owner {
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  margin-left: 1.7rem;
+}
+
+/* Styles for active car user */
+.car-user-active {
+  width: 170px;
+  color: white;
+  background-color: #000000;
+}
+
+/* Styles for inactive car user */
+.car-user-inactive {
+  width: 170px;
+  color: #b8b7b7;
+  background-color: #f3f3f3;
+}
+
+/* Styles for get started button on hover */
+.get-started:hover {
+  background-color: black;
+  color: #defa0f;
+}
+
+/* Styles for continue signup button */
+.continue_signup {
+  color: #defa0f;
+  background-color: #000000;
+}
+
+/* Styles for continue signup button disabled */
+.continue_signup_disabled {
+  background-color: #d9d9d9;
+}
+
+/* Styles for continue signup check */
+.signup-check {
+  background-color: #defa0f;
+}
+
+/* Styles for feature list */
+.feature-list {
+  column-count: 2;
+  column-gap: 2rem;
+}
